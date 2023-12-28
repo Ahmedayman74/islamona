@@ -1,0 +1,104 @@
+body {
+    color: white !important;
+}
+
+
+
+
+
+
+
+.hadith-books {
+    padding-top: 50px;
+    direction: ltr;
+}
+
+
+
+.hadith-book , .chapter {
+    padding: 10px 20px;
+    margin: 10px 20px;
+    width: 375px;
+    background-color: #343a40;
+    border-radius: 6px;
+    border: 1px solid #464b50;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+
+.chapters {
+    padding: 50px 0;
+}
+
+.chapter {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+
+.hadith-book:hover , .chapter:hover {
+    border: 1px solid #2ca4ab;
+}
+
+
+.hadith-books a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.hadith-lang {
+    background-color: #272f33;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    gap: 5%;
+}
+
+.hadith-lang p {
+    line-height: 1.7;
+}
+
+.hadith-en p {
+    font-size: 13px;
+}
+
+.hadith-lang .hadith-en {
+    flex-basis: 47.5%;
+}
+.hadith-lang .hadith-ar {
+    color: #2bb5bc;
+    flex-basis: 47.5%;
+}
+
+
+
+@media (max-width:769px) {
+    .hadith-books  {
+        flex-direction: column;
+    }
+    .hadith-book  {
+        width: calc(100% - 40px);
+        margin: 10px 20px;
+    }
+
+    .chapter {
+        width: calc(100% - 20px);
+        margin: 10px;
+    }
+
+    .hadith-lang {
+        flex-direction: column;
+    }
+
+    .hadith-lang .hadith-ar {
+        margin-top: 20px;
+    }
+
+}

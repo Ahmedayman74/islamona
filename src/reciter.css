@@ -1,0 +1,71 @@
+li.surah-box {
+    background-color: #343a40;
+    margin: 20px 20px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    border: 1px solid #464b50;
+    transition: 0.4s;
+}
+li.surah-box:hover , li.surah-box.active  {
+    border: 1px solid #2ca4ab;
+}
+
+ul.options li {
+    margin-left:10px;
+}
+
+p {
+    margin: 0 !important;
+}
+
+span.surah-number {
+    display: inline-block;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+
+li.surah-box:hover span.surah-number {
+    color: #2ca4ab;
+}
+
+
+.rhap_container{
+    position: fixed;
+    bottom: -200px;
+    left: 0;
+    transition: 0.4s;
+    background-color: #1f2125 !important;
+    border-top: 1px solid #464b50;
+}
+
+
+
+
+.rhap_time, svg {
+    color: white !important;
+    transition: 0.4s;
+}
+
+
+/* .heart-icon svg {
+    color: #2ca4ab !important;
+} */
+
+svg:hover {
+    color: #2ca4ab !important;
+}
+
+
+.rhap_download-progress {
+    background-color: #777 !important;
+}
+
+.rhap_progress-indicator {
+    background-color: white !important;
+}
+
+
+.rhap_progress-filled {
+    background-color: white !important;
+}

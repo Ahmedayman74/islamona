@@ -1,0 +1,37 @@
+
+.reciter-container {
+    padding: 50px 0;
+}
+
+
+
+.reciter-letter {
+    color: white;
+}
+
+
+
+.reciter-name li{
+    padding: 10px 20px;
+    margin: 10px 20px;
+    width: 375px;
+    background-color: #343a40;
+    border-radius: 6px;
+    border: 1px solid #464b50;
+    transition: 0.4s;
+}
+
+@media (max-width:769px) {
+    .reciter-name li {
+        width: 100%;
+    }
+}
+
+.reciter-name li:hover {
+    border: 1px solid #2ca4ab;
+}
+
+.reciter-name li a {
+    text-decoration: none;
+    color: white;
+}

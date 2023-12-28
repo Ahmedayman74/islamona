@@ -1,23 +1,44 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './Components/Home';
+import Reciters from './Components/Reciters';
+import Reciter from './Components/Reciter';
+import HadithBooks from './Components/HadithBooks';
+import HadithChapters from './Components/HadithChapters';
+import HadithChapter from './Components/HadithChapter';
+import { Surah } from './Components/Surah';
+import { Quran } from './Components/Quran';
+import { Azan } from './Components/Azan';
+import FavoritesReciter from './Components/FavoritesReciter';
+import Azkar from './Components/Azkar';
+import AzkarPage from './Components/AzkarPage';
+import { useSelector } from 'react-redux';
+
+
+
+
+
+
 
 function App() {
+  const AzanTime = useSelector((state) => state)
+  console.log(AzanTime)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        {/* <Route path="/" element={<Home/>}/> */}
+        <Route path="/" element={<Quran/>}/>
+        <Route path="/favorites" element={<FavoritesReciter/>} />
+        <Route path="/azan" element={<Azan/>}/>
+        <Route path="/reciters" element={<Reciters/>}/>
+        <Route path="/reciter/:reciterId" element={<Reciter/>}/>
+        <Route path="/azkar" element={<Azkar/>} />
+        <Route path='azkar/:azkarName' element = {<AzkarPage/>}/>
+        <Route path="/surah/:surahId" element={<Surah/>}/>
+        <Route path='/hadith' element={<HadithBooks/>}/>
+        <Route path='/hadith/:chapters' element={<HadithChapters/>}/>
+        <Route path='/hadith/:chapters/:chapterId' element={<HadithChapter/>}/>
+      </Routes>
     </div>
   );
 }
