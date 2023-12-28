@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/islamona/static/css/main.150c72a2.css",
+    "main.js": "/islamona/static/js/main.5eb0ef93.js",
+    "static/js/787.787e7205.chunk.js": "/islamona/static/js/787.787e7205.chunk.js",
+    "static/media/islamic-xptqk5xw6adpezzv.jpg": "/islamona/static/media/islamic-xptqk5xw6adpezzv.27e5ec475fb6ab2b0a19.jpg",
+    "static/media/Why-We-Need-Ulama-Islamic-Knowledge-in-a-Secular-Age_Rectangle_4000x2250-scaled.jpg": "/islamona/static/media/Why-We-Need-Ulama-Islamic-Knowledge-in-a-Secular-Age_Rectangle_4000x2250-scaled.233512df1dd5659d87c6.jpg",
+    "static/media/Muslim-child-prays-inside-mosque.2e16d0ba.fill-768x432.jpg": "/islamona/static/media/Muslim-child-prays-inside-mosque.2e16d0ba.fill-768x432.c7a8cbc821f8ebb0fcf2.jpg",
+    "static/media/colors-in-islamic-architecture_1.jpg": "/islamona/static/media/colors-in-islamic-architecture_1.ee68053d82cb9764c042.jpg",
+    "static/media/Prayer_in_Cairo_1865.jpg": "/islamona/static/media/Prayer_in_Cairo_1865.dd644f149e473b4a93e7.jpg",
+    "static/media/moon.png": "/islamona/static/media/moon.6648be9c092c8e22018b.png",
+    "static/media/praying.png": "/islamona/static/media/praying.d3c0ff3fcca0eae4c61b.png",
+    "static/media/sun.png": "/islamona/static/media/sun.171cc790d48eb3fe0770.png",
+    "static/media/background.jpg": "/islamona/static/media/background.c347a5c40efeb96b150f.jpg",
+    "index.html": "/islamona/index.html",
+    "main.150c72a2.css.map": "/islamona/static/css/main.150c72a2.css.map",
+    "main.5eb0ef93.js.map": "/islamona/static/js/main.5eb0ef93.js.map",
+    "787.787e7205.chunk.js.map": "/islamona/static/js/787.787e7205.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.150c72a2.css",
+    "static/js/main.5eb0ef93.js"
+  ]
+}
